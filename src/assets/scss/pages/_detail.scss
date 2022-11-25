@@ -1,0 +1,76 @@
+@import "../components/productDetail";
+@import "../components/relatedProducts";
+
+    .container{
+        // padding-top: 8%;
+        .detail_main{
+            padding-top: 20%;
+            // position: relative;
+
+            .row{
+                padding-bottom: 70px;
+                .col-md-6{
+                    .detail_img{
+                        
+                        img{
+                            width: 200%;
+                            -webkit-animation: mover 1s infinite alternate;
+                            animation: mover 1s infinite alternate;
+                        }
+                        @-webkit-keyframes mover {
+                            0% { transform: translateY(0); }
+                            100% { transform: translateY(-10px); }
+                        }
+                        @keyframes mover {
+                            0% { transform: translateY(0); }
+                            100% { transform: translateY(-10px); }
+                        }
+                    }
+                }
+                .col-md-6{
+                    .detail_content{
+                            margin-left: 20%;
+                        .card{
+                            border: none;
+                            h1{
+                                text-align: center;
+                                font-weight: 600;
+                                margin-bottom: 30px;
+                                width: 200%;
+                            }
+                                .moTa{
+                                    width: 200%;
+                                }
+                                .ngayTao{
+                                    padding-top: 30px;
+                                }
+                                .maNhom{
+
+                                }
+                                .luotXem{
+
+                                }
+                                .slHocVien{
+                                    padding-bottom: 30px;
+                                }
+                            p{
+                                margin-bottom: 10px;
+                                // text-align: center;
+                                font-size: 19px;
+                                font-weight: 600;
+                                
+                            }
+
+                            .detail_button{
+                                // position: absolute;
+                                font-weight: 600;
+                                font-size: 25px;
+                                // bottom: -5%;
+                                // left: 50%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }

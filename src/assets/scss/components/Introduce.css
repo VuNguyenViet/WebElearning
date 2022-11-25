@@ -1,0 +1,37 @@
+.Introduce .Introduce_2 .intro_img {
+  padding-top: 50px;
+}
+.Introduce .Introduce_2 .intro_img img {
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 1s infinite alternate;
+}
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+.Introduce .Introduce_2 .intro_content {
+  padding-top: 10%;
+}
+.Introduce .Introduce_2 .intro_content h3 {
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+.Introduce .Introduce_2 .intro_content .intro_button {
+  margin-top: 30px;
+  padding: 10px 10px;
+  font-weight: 600;
+  background-color: #06282c;
+  color: white;
+}/*# sourceMappingURL=Introduce.css.map */

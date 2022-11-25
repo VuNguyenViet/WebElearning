@@ -1,0 +1,2 @@
+HỌ và TÊn: Nguyễn Viết Vũ
+Khối lượng công việc đã làm: Tạo giao diện ban đầu, tạo giao diện cho các Template, tạo giao diện và viết logic code cho các page: HomeTemplate, AdminTemplate, Login, Register, Search, Profile, Danh mục khóa học, Danh Sách khóa học theo danh mục,lấy thông tin khóa học, lấy danh sách khóa học, lấy danh sách học viên, thêm học khóa học. Viết tất cả Reducer và Logic code.Lên ý tưởng và fix lỗi cả team khi conflict. 

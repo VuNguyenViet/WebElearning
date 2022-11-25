@@ -1,0 +1,120 @@
+@import '../themes/variable';
+
+//css
+// .header {
+//     background-color: #e3f2fd !important;
+    
+// }
+// .header_right {
+//     justify-content: end !important;
+//     align-items: center !important;
+// }
+// .search_header {
+//     color: white;
+//     border: none;
+// }
+.header_fixed {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    padding:0 20px;
+    background-color: white !important;
+    color: black !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .header_text{
+        font-size: 50px;
+        @media screen and  (max-width: 768px) {
+            font-size: 30px;
+        }
+    }
+
+    a {
+        color: #06BBCC !important;
+    }
+
+    h2 {
+        color: #06BBCC;
+        font-weight: 700;
+    }
+
+    .header__left {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .header__right {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+
+        gap: 10px;
+        .nav-link {
+            padding: 0;
+        }
+
+        .login_regis {
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            padding-bottom: 0;
+            padding-left: 0;
+            margin-bottom: 0;
+
+            .login {
+                margin-right: 20px;
+            }
+
+            .register {
+                padding-left: 10px;
+                padding-bottom: 24px;
+
+                // @media screen and (max-width: 768px) {
+                //     display: none;
+                // }
+            }
+
+        }
+
+        .navbar-nav {
+            display: flex !important;
+            align-items: center;
+            justify-content: end;
+            flex-direction: row !important;
+
+            li {
+                margin-left: 20px;
+            }
+        }
+    }
+
+    // .header_right {
+    //     padding-left: 350px;
+    //     position: relative;
+    //     .search_cart {
+    //         position: absolute;
+    //         right: 15%;
+    //         .header_icon {
+
+    //         }
+    //     } ;
+    //         .header_icon{
+    //             position: absolute;
+    //             right: 16%;
+    //         }
+    //    ul {
+    //     position: absolute;
+    //     font-weight: 500;
+    //     right: 10px;
+    //     li{
+    //         .register{
+    //             // position: absolute;
+    //             // right: 40%;
+    //             padding-top: 15px;
+    //         }
+    //     }
+    //    }
+    // }
+}

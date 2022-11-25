@@ -1,0 +1,40 @@
+@import './variable-base' ;
+.menu_main{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    top: 80px;
+    @media screen and  (max-width: 768px) {
+        top: 55px;
+    }
+            .menu_1{
+                nav{
+                    font-weight: 600;
+                    // color: red;
+                background-color: #0d6870;
+                
+                    .container-fluid{
+                      
+                        button{
+
+                        }
+                        .menu_list{
+                            ul{
+                               
+                                li{
+                                   
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+   
+      
+    .Menu_danhmuc_2 {
+        background-color: #eb7500;
+        color: white !important;
+        margin: 3px 0;
+    }
+   
+}

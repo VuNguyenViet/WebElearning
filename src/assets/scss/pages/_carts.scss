@@ -1,0 +1,146 @@
+// .carts {
+//   padding: 50px 50px 160px 70px;
+
+//   h2 {
+//     @include text($text-40);
+//   }
+
+//   hr {
+//     border: 1px sodid $border-hr;
+//   }
+
+//   .carts__content {
+//     text-align: center;
+//     margin-top: 70px;
+//     @include text($text-20);
+
+//     button {
+//         font-family: $font-btn-cart;
+//     }
+
+//     thead {
+//       background: $bg-tbl;
+//     }
+
+//     tbody {
+
+//       tr {
+//         td:nth-child(3) {
+//           img {
+//             width: 85px;
+//           }
+//         }
+
+//         td:nth-child(6) {
+//           button {
+//             @include button(32px, 30px, $bg-btn-cart-quant, $br-btn);
+//             box-shadow: $box-shadow-btn;
+//             @include text($text-14, $text-medium, $text-c1-white);
+//           }
+
+//           span {
+//             background-color: $bg-tbl;
+//             margin: 0 21px;
+//             padding: 2px 35px;
+//           }
+//         }
+
+//         td:last-child {
+//           .btnEdit {
+//             @include button(80px, 36px, $bg-btn-cart-edit, $br-btn);
+//             box-shadow: $box-shadow-btn;
+//             @include text($text-14, $text-medium, $text-c1-white);
+//             margin-right: 26px;
+//           }
+
+//           .btnDelete {
+//             @include button(100px, 36px, $bg-btn-cart-del, $br-btn);
+//             box-shadow: $box-shadow-btn;
+//             @include text($text-14, $text-medium, $text-c1-white);
+//           }
+//         }
+//       }
+//     }
+
+//     tfoot {
+//       tr {
+//         td:nth-child(2) {
+//             text-align: right;
+
+//           .btnSubmitOrder {
+//             @include button(152px, 30px, $bg-btn-cart-submit, $br-btn);
+//             box-shadow: $box-shadow-btn;
+//             @include text($text-14, $text-medium, $text-c1-white);
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+    .cart_main{
+      .cart_title{
+        h1{
+          padding-top: 9%;
+          text-align: center;
+          padding-bottom: 30px;
+          font-weight: 600;
+        }
+    }
+      .container{
+        .cart_info{
+          .table{
+              thead{
+
+                tr{
+                  th{
+           color: rgb(168, 198, 224);
+                  }
+                }
+              }
+              tbody{
+                tr{
+                  td{
+                   
+                    .cart_img{
+
+                    }
+                  }
+                }
+              }
+          }
+        }
+        .cart_pay{
+            text-align: end;
+            
+          h2{
+            padding: 20px 0;
+          }
+            p{
+              padding: 20px 0;
+
+            }
+            .cart_button{
+              margin: 20px 0;
+            }
+        }
+          .pay_info{
+            h1{
+              font-weight: 600;
+              text-align: center;
+            }
+            table{
+              thead{
+                tr{
+                  th{
+                    img{
+                      
+                    }
+                     
+                  }
+                }
+              }
+            }
+          }
+      }
+    }
